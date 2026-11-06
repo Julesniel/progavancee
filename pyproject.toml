@@ -1,0 +1,20 @@
+[project]
+name = "progavancee"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "bioread>=2025.5.2",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.4",
+    "pandas>=3.1.1",
+    "scipy>=0.16.0",
+]
+
+[project.scripts]
+progavancee = "progavancee:main"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"
